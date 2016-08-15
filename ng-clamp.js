@@ -255,7 +255,7 @@
 
   var ngClampFactory = function(angular, clamp) {
     angular
-      .module('directives.clamp', [])
+      .module('ng-clamp', [])
       .directive('clamp', clampDirective);
 
     clampDirective.$inject = ['$timeout'];
